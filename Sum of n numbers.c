@@ -5,7 +5,7 @@ int main()
     printf("Enter an integer:\n");
     scanf("%d",&n);
     for(int i=1;i<n;i++){
-        sum=sum+n;
+        sum=sum+i;
     }
     printf("Sum = %d",sum);
     return 0;
